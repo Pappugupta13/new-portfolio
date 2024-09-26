@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #031926;
+    /* background-color: rgb(179, 167, 247); */
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+.ds {
+    padding: 15px 85px;
+    color: #9067c6;
+}
+.ds h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+    margin-right: 70px;
+}
+
+.menu a {
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(167, 177, 185)
+}
+.menu a:hover{
+    color: white;
+    text-decoration:3px solid rgb(153, 153, 236) underline;
+    border-radius: 10px;
+}
+
+body {
+      background-color:  #031926;
+
+}
+.section{
+    height: 100vh;
+    /* width: 100vw; */
+}
+.section-text{
+   height:150px ;
+
+
+}
+.menu h1{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .menu .link-container {
+        display: none;
+        width: 100vw;
+        position: absolute;
+        top:69px;
+        height: auto;
+        left: 0;
+        background-color: rgb(118, 110, 162);
+       
+
+    }
+    .menu .link-container  a{
+        display: block;
+        border-bottom:2px solid white;
+        border-radius: 0;
+        padding: 10px;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+    .menu h1{
+        display: inline;
+    }
+}
+.section-text h1{
+   color: white;
+   font-family: sans-serif;
+   font-size: 40px;
+}
+.section-image img{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+   
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.brief{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+     height:500px ; 
+    padding: 150px;
+}
+.man-icon img{
+    height: 400px;
+     
+}
+.para p{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.para h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.love{
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    
+}
+.icon img {
+    height:20px ;
+    background-color: white;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 5px;
+}
+ @media (min-width: 360px){
+    .icon img {
+       flex-wrap: wrap;
+    } 
+} 
+.name{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.copy{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;  
+}
